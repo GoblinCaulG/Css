@@ -1,0 +1,24 @@
+.flex-pai{
+    background: blueviolet;
+    height: 600px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    align-items: center;
+
+    /*flex-direction: column-reverse;
+    flex-wrap: wrap;
+    
+    /*flex-direction: column;*/
+}
+
+
+
+.flex-pai div{
+    flex-grow: 1;
+    background:  whitesmoke;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 30px;
+    text-align: center;
+}
