@@ -1,0 +1,49 @@
+.container {
+  position: relative;
+
+  display: inline-block;
+
+  background-color: blue;
+  width: 100%;
+  height: 400px;
+  .div1 {
+    position: relative; /*vc consegue mexer o bloco e ele 
+    fica entrando na frente do outro*/
+    
+    width: 30%;
+    height: 100px;
+    background-color: yellow;
+    display: inline-block;
+    /* z index seria a camada */
+    z-index: 1;
+  }
+  .div2 {
+    /**/
+    width: 30%;
+    height: 100px;
+    background-color: red;
+    display: inline-block;
+    position: sticky;
+    top: 0;
+  }
+  .div3 {
+    position: absolute;
+    width: 30%;
+    height: 100px;
+    background-color: bisque;
+    display: inline-block;
+    top: 150px;
+    right: 250px;
+
+  }
+}
+.whats{
+  background-color: green;
+  color: white;
+  width: 80px;
+  height: 80px;
+  position: fixed;/*fica o bloco fixo*/
+  bottom: 0px;
+  right: 10px;
+
+}
