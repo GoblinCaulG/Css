@@ -1,0 +1,18 @@
+.div1{
+    text-align: center;
+    width: 350px;
+    height: auto;
+    
+    background:rgb(172, 21, 21);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.reduzido{
+    white-space: nowrap ;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-bottom: 30px;
+}
+.div1:hover .reduzido{
+    white-space: normal;
+}
+
