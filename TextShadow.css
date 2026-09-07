@@ -1,0 +1,15 @@
+body{
+    background-image: linear-gradient(95deg,blueviolet, #add  );
+}
+h1{
+    text-shadow: 2px 2px 5px red;
+    /*o terceiro é a suavização da cor*/
+}
+.box{
+    width: 40%;
+    height:  300px;
+    background:white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  /* box-shadow: 5px 5px 20px yellowgreen;*/
+
+}
