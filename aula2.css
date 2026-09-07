@@ -1,0 +1,9 @@
+.exemplo{
+    background-color: blueviolet;
+    color: white;
+    height: 50px;
+    overflow: auto;
+}
+body{
+    overflow: hidden;
+}
