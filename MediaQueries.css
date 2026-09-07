@@ -1,0 +1,12 @@
+h2{
+
+    color: antiquewhite;
+    font-size: 40px;
+}
+@media screen and (max-width:900px )  and (min-width:600px){
+    .ex{
+        background: yellow;
+        height: 400px;
+
+    }
+}
