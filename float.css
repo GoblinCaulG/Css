@@ -1,0 +1,33 @@
+.container{
+    border: 1px solid black;
+    overflow: auto;
+}
+.container img {
+    float: left;
+    margin-right: 30px;
+
+
+    
+}
+ul{
+    background-color: black;
+}
+li{
+    display: inline-block;
+}
+li a{
+    color: aqua;
+    text-decoration: none;
+    padding: 20px;
+}
+li a:hover{
+    background: darkgray;
+    color: black;
+}
+.login{
+    float: right ;
+}
+.login a:hover{
+    background-color: violet;
+    color: aquamarine;
+}
